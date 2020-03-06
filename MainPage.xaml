@@ -8,10 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid x:Name="layoutRoot">
         <TextBox x:Name="Title" HorizontalAlignment="Left" Height="91" Margin="49,43,0,0" Text="Pendulum Simulator" TextWrapping="Wrap" VerticalAlignment="Top" Width="701" TextChanged="TextBox_TextChanged" FontSize="72" IsReadOnly="True"/>
         <Slider HorizontalAlignment="Left" Margin="118,663,0,0" VerticalAlignment="Top" Width="388" Height="58"/>
-        <Button x:Name="Start_Button" Content="Start Simulation" Margin="1186,833,0,0" VerticalAlignment="Top" Height="167" Width="314" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" RequestedTheme="Default" Click="Start_Button_Click"/>
-
+        <Button x:Name="Start_Button" Content="Start Simulation" Margin="1185,833,0,0" VerticalAlignment="Top" Height="167" Width="314" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" RequestedTheme="Default" Click="Start_Button_Click"/>
+        <Line Stroke="Red" X2="400"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Center" Height="691" VerticalAlignment="Center" Width="1480"/>
     </Grid>
 </Page>
