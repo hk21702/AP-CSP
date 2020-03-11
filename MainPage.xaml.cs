@@ -68,7 +68,8 @@ namespace AP_CSP
             canvas.Children.Add(line);
             canvas.Children.Add(ball);
 
-            System.Threading.Timer timing = new System.Threading.Timer(timerTick, null, 0, 10);           
+            CompositionTarget.Rendering += Render;
+           // System.Threading.Timer timing = new System.Threading.Timer(timerTick, null, 0, 10);           
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -78,7 +79,7 @@ namespace AP_CSP
 
         private void Start_Button_Click(object sender, RoutedEventArgs e)
         {
-
+           
           
 
         }
@@ -100,6 +101,17 @@ namespace AP_CSP
             });
             updatePositions();
   
+        }
+
+        private void Render(object sender, object e)
+        {
+            Canvas.SetLeft(ball, ballX - (ball.Width / 2));
+            Canvas.SetTop(ball, ballY - (ball.Height / 2));
+
+            line.X2 = ballX;
+            line.Y2 = ballY;
+
+            updatePositions();
         }
 
         public void updatePositions()
