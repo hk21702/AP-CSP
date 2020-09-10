@@ -1,0 +1,11 @@
+C:\Users\hk217\source\repos\Swing_Copy1\bin\Debug\Chapter07.exe
+C:\Users\hk217\source\repos\Swing_Copy1\bin\Debug\Chapter07.pdb
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Swing.csprojAssemblyReference.cache
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Pendulum.baml
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Pendulum.g.cs
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\App.g.cs
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Chapter07_MarkupCompile.cache
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Chapter07.g.resources
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Swing.csproj.CopyComplete
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Chapter07.exe
+C:\Users\hk217\source\repos\Swing_Copy1\obj\Debug\Chapter07.pdb
